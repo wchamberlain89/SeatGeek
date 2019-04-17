@@ -5,12 +5,16 @@ import NavButton from './NavButton';
 function UserLinks() {
 
   let style = {
-    fontWeight: "300"
+    fontWeight: "300",
+    display: "flex",
+    justifyContent: "space-between"
   }
+
+
   return (
     <div style={style}>
       <NavButton title="Track My Order"/>
-      <NavButton title="Sign Up"/>
+      <NavButton active="true" title="Sign Up"/>
       <NavButton title="Log In"/>
     </div>
   );

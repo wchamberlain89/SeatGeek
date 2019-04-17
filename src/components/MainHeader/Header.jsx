@@ -8,15 +8,23 @@ import Search from './Search';
 function Header() {
   const styles = {
     width: '100%',
-    height: "30vh",
-    backgroundColor: "#1573e5"
+    height: '375px',
+    backgroundColor: '#127be5',
+    backgroundImage: 'linear-gradient(to left, #0c8fe6, #1573e5)',
+    paddingTop: '10px'
+  }
 
+  const inner = {
+      maxWidth: '968px',
+      margin: '0 auto'
   }
 
   return (
     <div style={styles}>
-      <HeaderNav/>
-      <Search/>
+      <div style={inner}>
+        <HeaderNav/>
+        <Search/>
+      </div>
     </div>
   );
 }

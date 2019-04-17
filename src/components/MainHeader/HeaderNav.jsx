@@ -5,10 +5,12 @@ import UserLinks from './UserLinks';
 function HeaderNav() {
   let style = {
     height: '20%',
-    width: '100%',
+      maxWidth: '1400px',
+      margin: '0 auto',
+
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-around'
+    justifyContent: 'space-between'
   }
   return (
     <div style={style}>
