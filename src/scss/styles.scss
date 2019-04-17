@@ -1,10 +1,12 @@
 @import 'backgrounds.scss';
 @import 'hovers.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.header{
-  width: 100%;
-  position: sticky;
-  top: 0;
-  margin: 0;
-  padding: 20px;
+* {
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+.navButton:hover {
+  background-color: white;
+  color: #1573e5;
 }
